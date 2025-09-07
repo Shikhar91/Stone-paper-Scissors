@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+
+    <!-- include bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- css include -->
+     <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row heading">
+            <div class="col-12">
+                <h1 class="text-center">
+                    Stone Paper Scissors
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+
+            <!-- paper -->
+            <div class=" col-lg-4 col-sm-4 col-md-6 d-flex justify-content-center">
+                <div class="img d-flex justify-content-center align-items-center">
+                    <img src="img/paper.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+
+            <!-- stone -->
+            <div class=" col-lg-4 col-sm-4 col-md-6 justify-content-center d-flex">
+                <div class="img d-flex justify-content-center align-items-center">
+                    <img src="img/stone.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+
+            <!-- Scissors -->
+            <div class=" col-lg-4 col-sm-4 col-md-12 justify-content-center d-flex">
+                <div class="img d-flex justify-content-center align-items-center">
+                    <img src="img/Scissor.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mt-1">
+            <div class="col-12 d-flex gap-5 justify-content-center scores">
+
+                <!-- your socre -->
+                <div class="score flex-column">
+                    <p class="text-center" id="user-score">0</p>
+                    <p >You</p>
+                </div>
+
+
+                <!-- computer score -->
+                <div class="score flex-column">
+                    <p class="text-center" id="computer-score">0</p>
+                    <p>Computer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 msg-container d-flex justify-content-center">
+                <p id="msg" class=" text-light">play your move</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

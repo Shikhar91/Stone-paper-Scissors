@@ -1,0 +1,48 @@
+.heading{
+    height: 100px;
+}
+
+.heading h1{
+    font-size:60px;
+    background-color:darkolivegreen;
+    color:azure;
+}
+
+.img img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 150px 150px;
+    object-fit: cover;
+    
+}
+
+.img:hover{
+    opacity:.9;
+    cursor: pointer;
+    background-color:darkolivegreen ;
+}
+
+.img{
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    
+    border-radius: 70%;
+    object-fit: cover;
+
+}
+
+.scores{
+    font-size: 2rem;
+}
+
+#user-score,#computer-score{
+    font-size: 4rem;
+}
+
+#msg{
+    font-size: 2rem;
+    background-color: black;
+    display: inline;
+}
